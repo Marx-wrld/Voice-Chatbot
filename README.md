@@ -116,3 +116,4 @@ sudo bash start.sh
 
 Navigate to your project localhost port 5173, and paste your openai API key under settings
 
+Credits - @cybrosystech
