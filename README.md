@@ -1,6 +1,6 @@
 ##  Voice Chatbot using Openai's API
 
-> Credits to - [@cybrosystech](https://github.com/cybrosystech)
+> Credit to - [@cybrosystech](https://github.com/cybrosystech)
 
 **Multilingual Voice and Text Support**
 
