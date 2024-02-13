@@ -1,0 +1,47 @@
+.dot-loader {
+  position: relative;
+  background: #dedede;
+  width: 50px;
+  height: 30px;
+  border-radius: 30px;
+}
+@keyframes anim {
+  0% {
+    transform: translateY(0);
+ }
+  100% {
+    transform: translateY(-5px);
+ }
+}
+.dot-loader div:nth-child(1) {
+  position: absolute;
+  top: 16px;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background: #aaa;
+  animation: anim 0.5s ease alternate infinite;
+  left: 10px;
+}
+.dot-loader div:nth-child(2) {
+  position: absolute;
+  top: 16px;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background: #aaa;
+  animation: anim 0.5s ease alternate infinite;
+  left: 22px;
+  animation-delay: 0.2s;
+}
+.dot-loader div:nth-child(3) {
+  position: absolute;
+  top: 16px;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background: #aaa;
+  animation: anim 0.5s ease alternate infinite;
+  left: 34px;
+  animation-delay: 0.3s;
+}

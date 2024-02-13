@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic);
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Arimo', sans-serif;
+
+}
+
+main {
+  z-index: 2;
+  height: 100%;
+  width: 75%;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0px;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  z-index: 99;
+  background-color: #162d3a;
+  box-shadow: -3px 8px 22px 0px #222;
+  transition: width .7s ease-in-out;
+}
+.sidebar.active {
+    width: 400px;
+    transition: width .7s ease-in-out;
+}
+.button {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.nav-right {
+  position: fixed;
+  right: 40px;
+  top: 20px;
+}
+
+nav {
+  padding-top: 30px;
+}
+
+.sidebar-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  margin-top: 150px;
+  text-align: center;
+}
+.ua {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+
+@media (min-width: 768px) {
+  .nav-right {
+    position: absolute;
+  }
+  .hidden-xs {
+    display: block;
+  }
+  .visible-xs {
+    display: none;
+  }
+}
+
+.sidebar.active label {
+    color: #f5f5f5;
+}
+
+.sidebar.active button{
+    height: 25px;
+    width: 25px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar.active .form-group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.language_box {
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.language_box {
+  color: #f5f5f5;
+  border-color: #f5f5f5;
+}
