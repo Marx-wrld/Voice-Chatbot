@@ -1,8 +1,4 @@
-#  Voice Chatbot using Openai's API
-
-The potential of voice chatbots to deliver a more personalized and interactive experience has made their adoption more and more widespread in recent years. In this blog, we will explore the features and functions of a voice chatbot that utilizes multilingual voice and text support, React, GPT-3.5 turbo language model, Whisper AI, and a Python backend with FastAPI.
-
-![chatupdt](https://user-images.githubusercontent.com/129945593/235127475-ab72e8a8-d26b-48fd-80e1-dbc6e1a1e6ac.png)
+##  Voice Chatbot using Openai's API
 
 
 **Multilingual Voice and Text Support**
@@ -29,8 +25,6 @@ FastAPI is a web framework for **building** Python RESTful APIs
 
 **Workflow of Chatbot**
 
-
-
 1.  Receive voice messages on UI
 2. Use the Whisper AI of OpenAI to convert voice to text.
 3. Make a response utilising the GPT API of OpenAI.
@@ -55,9 +49,6 @@ app = FastAPI()
 
 **Whisper API**
 
-        
-
-
 ```
  Import openai
 
@@ -73,9 +64,7 @@ app = FastAPI()
 
 ** **
 
-**4.Generating a response using OpenAI’s GPT API**
-
-      
+**4.Generating a response using OpenAI’s GPT API**      
 
 
 ```
@@ -122,9 +111,8 @@ sudo bash setup.sh
 
 sudo bash start.sh
 
-
 ```
 
 
-Open your browser and go to [http://localhost:5173/](http://localhost:5173/) 
+Navigate to your project localhost port 5173, and paste your openai API key under settings
 
