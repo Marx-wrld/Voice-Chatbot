@@ -1,5 +1,6 @@
 ##  Voice Chatbot using Openai's API
 
+> Credits to - [@cybrosystech](https://github.com/cybrosystech)
 
 **Multilingual Voice and Text Support**
 
@@ -116,4 +117,3 @@ sudo bash start.sh
 
 Navigate to your project localhost port 5173, and paste your openai API key under settings
 
-Credits to - [@cybrosystech](https://github.com/cybrosystech)
