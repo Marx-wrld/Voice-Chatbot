@@ -32,6 +32,9 @@ FastAPI is a web framework for **building** Python RESTful APIs
 4. Use the Google Text to Speech (gTTS) library to convert the response's text to speech.
 5. Send back the spoken answer on UI.
 
+![Uploading CBot.PNG…]()
+
+
 **1. Receive voice messages on UI**
 
 We use the **voice-recorder-react **Package to record voice and sent it to the Fast API server
