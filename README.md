@@ -1,5 +1,6 @@
 ##  Voice Chatbot using Openai's API
 
+> Credit to - [@cybrosystech](https://github.com/cybrosystech)
 
 **Multilingual Voice and Text Support**
 

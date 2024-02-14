@@ -1,0 +1,6 @@
+fastapi==0.109.2
+gTTS==2.5.1
+openai==0.28.0
+openai_whisper==20231117
+pydantic==2.6.1
+uvicorn==0.27.1
